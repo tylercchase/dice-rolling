@@ -14,10 +14,8 @@
  *
  */
 #include "Game.h"
-//This is a second test of the username functionality
 int main() {
     Game gamer;
-    //TASD
     gamer.run();
     return 0;
 }
