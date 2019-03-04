@@ -14,7 +14,7 @@
  *
  */
 #include "Game.h"
-
+//This is a test of the username functionality
 int main() {
     Game gamer;
     gamer.run();
