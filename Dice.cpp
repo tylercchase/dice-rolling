@@ -16,7 +16,6 @@ int Dice::roll(int numOfRolls) {
         std::uniform_int_distribution<int> distribution(1,6);
         auto dice = std::bind ( distribution, generator );
         int tempRoll = dice();
-//        std::cout << "Dice Rolled: " << tempRoll << std::endl;
         totalSum += tempRoll;
     }
     std::cout << "Total sum of dice Rolled: " << totalSum << std::endl;
